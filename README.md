@@ -13,24 +13,33 @@ This project simulates batch crystallization of a solute from a supersaturated s
 Crystallization is a key separation and purification process in chemical industries. The simulation is based on:
 
 - Supersaturation:  
-  \[
-  S = \frac{C - C^*}{C^*}
-  \]
+  
+  S = {C - C^*}/{C^*}
+  
 
 - Growth rate model:  
-  \[
-  G = k_g \cdot S^g
-  \]
+  
+  G = k_g * S^g
+  
 
 - Concentration balance:  
-  \[
-  \frac{dC}{dt} = -\rho \cdot G \cdot A
-  \]
+  
+  dC/dt = -ρ * G * A
+
 
 - Crystal size evolution:  
-  \[
-  L = L_0 + \int G \,dt
-  \]
+ 
+  L = L_0 +  G * t
+
+  where;
+  C = concentration of solute
+  C* = saturation concentration
+  G = growth rate
+  A = surface area of crystals per unit volume
+  ρ = crystal density
+  k_g = growth rate constant
+  g = order of growth
+  
 
 # Features
 
