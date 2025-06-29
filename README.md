@@ -14,7 +14,7 @@ Crystallization is a key separation and purification process in chemical industr
 
 - Supersaturation:  
   
-  S = {C - C^*}/{C^*}
+  S = {C - C*}/{C*}
   
 
 - Growth rate model:  
